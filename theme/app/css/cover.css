@@ -1,0 +1,419 @@
+#statusbar-display[label^="Looking"] {
+  display: none !important;
+}
+
+#statusbar-display[label^="Connect"] {
+  display: none !important;
+}
+
+#statusbar-display[label^="Waiting"] {
+  display: none !important;
+}
+
+#statusbar-display[label^="Transfer"] {
+  display: none !important;
+}
+
+#statusbar-display .statuspanel-label {
+  display: none !important;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.blinkR {
+  animation-duration: 1000ms;
+  animation-name: blinkR;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blinkR {
+  0% {
+    color: red;
+  }
+
+  25% {
+    color: yellow;
+  }
+
+  50% {
+    color: blue;
+  }
+
+  100% {
+    color: green;
+  }
+}
+
+.btn-default {
+  color: #333;
+  text-shadow: none;
+  background-color: #fff;
+  border: #fff solid 1px;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: #e0e0e0;
+  background-position: 0 -15px;
+}
+
+.btn-selected,
+.btn-selected:hover,
+.btn-selected:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: #888;
+  border: #888 solid 1px;
+}
+
+iframe {
+  width: 98%;
+  border: none;
+}
+
+html,
+body {
+  height: auto !important;
+  height: 100%;
+  background-color: #000;
+}
+
+body {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 1px 1px rgb(0, 0, 0, 0.5);
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100% !important;
+  min-height: 100%;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner {
+  padding: 30px;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav>li {
+  display: inline-block;
+}
+
+.masthead-nav>li+li {
+  margin-left: 20px;
+}
+
+.masthead-nav>li>a {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  color: rgb(255, 255, 255, 0.75);
+  border-bottom: 2px solid transparent;
+}
+
+.masthead-nav>li>a:hover,
+.masthead-nav>li>a:focus {
+  background-color: transparent;
+  border-bottom-color: rgb(255, 255, 255, 0.25);
+}
+
+.masthead-nav>.active>a,
+.masthead-nav>.active>a:hover,
+.masthead-nav>.active>a:focus {
+  color: #fff;
+  border-bottom-color: #C5F2BD;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+
+  .masthead-nav {
+    float: right;
+  }
+}
+
+.cover {
+  padding: 0 20px;
+}
+
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.form-signin input {
+  text-align: center;
+  color: #000;
+}
+
+.table-responsive tbody {
+  background: #ececec;
+}
+
+.desc a {
+  color: #000d81;
+  text-decoration-color: #000d01;
+  text-decoration: underline;
+}
+
+.desc a:hover {
+  color: #007592;
+  text-decoration-color: #007592;
+  text-decoration: underline;
+}
+
+.who a {
+  color: #000000;
+  text-decoration-color: #000000;
+  text-decoration: underline;
+}
+
+
+.who a:hover {
+  color: #007592;
+  text-decoration-color: #007592;
+  text-decoration: underline;
+}
+
+.admin-actions {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.admin-subactions {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mastfoot {
+  color: #EEE;
+  color: rgb(238, 238, 238, 0.5);
+}
+
+.mastfoot a {
+  color: #EEE;
+  color: rgb(238, 238, 238, 0.5);
+}
+
+@media (min-width: 768px) {
+  .mastfoot {
+    bottom: 0;
+  }
+
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 950px;
+  }
+}
+
+.h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.h4 {
+  display: block;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+hr {
+  background-color: #fff;
+  border-top: 2px dashed #8c8b8b;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+}
+
+.table .td {
+  word-break: break-all;
+}
+
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter:  !important;
+    overflow: hidden !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: none !important;
+  }
+
+  abbr[title]:after {
+    content: " ("attr(title) ")";
+  }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: #999 solid 1px;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img,
+  td {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+
+  table tr.page-break {
+    page-break-inside: avoid;
+    page-break-after: always;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  table {
+    width: 80em;
+    overflow-wrap: break-word;
+    page-break-inside: auto;
+  }
+
+  table.page-break {
+    page-break-after: auto;
+  }
+
+  .dontprint {
+    display: none;
+  }
+}
+
+@page {}
+
+@media screen,
+aural,
+braille,
+embossed,
+handheld,
+projection,
+tty,
+tv {
+  .dontshow {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+AuthName "bst.nursinglog.click statistics"
+AuthType Basic
+AuthUserFile /home/bst/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
+RewriteEngine Off

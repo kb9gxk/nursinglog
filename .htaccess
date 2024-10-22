@@ -1,0 +1,162 @@
+RewriteEngine off
+
+<IfModule mod_maxminddb.c>
+MaxMindDBEnable On
+MaxMindDBFile DB /var/lib/GeoIP/GeoLite2-Country.mmdb
+MaxMindDBEnv MM_COUNTRY_CODE DB/country/iso_code
+SetEnvIf MM_COUNTRY_CODE ^(US|CA) AllowCountry
+allow from env=AllowCountry
+</IfModule>
+#PROTECTION MODE
+allow from 10.0.0
+allow from 10.2
+allow from 172.16
+allow from 192.168.16
+Deny from all
+
+
+
+
+# BEGIN EXPIRES
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 10 days"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType text/plain "access plus 1 month"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 week"
+  ExpiresByType image/png "access plus 1 week"
+  ExpiresByType application/x-javascript "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType application/x-icon "access plus 1 year"
+  ExpiresByType	application/pdf	"access	plus 1 week"
+  ExpiresByType	audio/mpeg "access plus	1 month"
+  ExpiresByType	video/mpeg "access plus	1 month"
+  ExpiresByType	video/mp4 "access plus 1 month"
+  ExpiresByType	video/quicktime	"access	plus 1 month"
+  ExpiresByType	vide/x-showckwave-flash	"access	plus 1 month"
+</IfModule>
+# END EXPIRES
+
+#<IfModule mod-gzip.c>
+#  mod_gzip_on Yes
+#  mod_gzip_dechunk Yes
+#  mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+#  mod_gzip_item_include handler ^cgi-script$
+#  mod_gzip_item_include mime ^text/.*
+#  mod_gzip_item_include mime ^application/x-javascript.*
+#  mod_gzip_item_exclude mime ^image/.*
+#  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+#</ifModule>
+
+<ifModule mod_headers.c>
+  <filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
+    Header set Cache-Control "max-age=2592000, public"
+  </filesMatch>
+  <filesMatch "\\.(xml|txt)$">
+    Header set Cache-Control "max-age=216000, public, must-revalidate"
+  </filesMatch>
+  <FilesMatch ".(doc|pdf)$">
+    Header set X-Robots-Tag "index, noarchive, nosnippet"
+  </FilesMatch>
+  <FilesMatch "robots.txt">
+    Header set X-Robots-Tag "noindex"
+  </FilesMatch>
+  <filesMatch "\\.(html|htm|php|do)$">
+    Header set Cache-Control "max-age=-1, private, must-revalidate"
+    <IfModule mod_headers.c>
+        BrowserMatch MSIE ie
+        Header set X-UA-Compatible "IE=Edge,chrome=1" env=ie
+    </IfModule>
+  </filesMatch>
+</ifModule>
+
+<ifModule mod_headers.c>
+  Header unset ETag
+</ifModule>
+FileETag None
+
+<ifModule mod_headers.c>
+  Header unset Last-Modified
+</ifModule>
+
+<IfModule mod_headers.c>
+Header set X-XSS-Protection "1; mode=block"
+Header set x-frame-options "SAMEORIGIN"
+Header set X-Content-Type-Options "nosniff"
+Header set Cache-Control "no-cache, no-store, must-revalidate"
+Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+Header set Referrer-Policy "no-referrer"
+Header set Expires "0"
+Header set Pragma "no-cache"
+Header set X-Robots-Tag "noindex, nofollow"
+Header set Permissions-Policy "vibrate 'self'; interest-cohort=(); browsing-topics=(); geolocation 'self'"
+Header set Request-OTR "1"
+
+</IfModule>
+
+# BEGIN COMPRESSION
+<IfModule mod_deflate.c>
+  SetOutputFilter DEFLATE
+
+  # Don’t compress
+  SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+  SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
+
+  #Dealing with proxy servers
+  <IfModule mod_headers.c>
+    Header append Vary User-Agent
+  </IfModule>
+</IfModule>
+# END COMPRESSION
+
+<IfModule mod_speling.c>
+  CheckCaseOnly On
+  CheckSpelling On
+</IfModule>
+
+#<IfModule mod_php7.c>
+# suppress PHP errors from displaying in the browser
+#php_flag display_startup_errors off
+#php_flag display_errors off
+#php_flag html_errors off
+
+# log PHP errors to a file
+#php_flag log_errors on
+#php_value error_reporting E_ALL
+#php_value error_log /home/bst/php.log
+
+#php_flag magic_quotes_gpc Off
+#php_value magic_quotes_gpc Off
+#</IfModule>
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^/.well-known/acme-challenge [NC]
+
+#RewriteRule \.(do)$ - [H=php-script]
+
+# Make sure all urls do not have trailing slash
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule ^(.*)$ $1/ [R=301,L]
+
+RewriteCond %{HTTPS}  !=on 
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+RewriteBase /
+
+##Error Docs
+#ErrorDocument 403 /index.php?page=404
+#ErrorDocument 404 /index.php?page=404
+#ErrorDocument 500 /index.php?page=500
+
+# Rewrites
+# Make sure everything is handled for index.html in current folder
+RewriteRule ^/?$ /index.php
+
+# main site
+RewriteRule ^(.+)\.do$ /index.php?page=do$1 [QSA,L]
+RewriteRule ^(.+)/$ /index.php?page=$1 [QSA,L]
+RewriteRule ^(.+)\.html$ /index.php?page=$1 [QSA,L]
+

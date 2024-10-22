@@ -1,0 +1,14 @@
+{
+    "require": {
+        "geoip2/geoip2": "^2.0",
+        "tinymce/tinymce": "~4.9.11",
+        "phpseclib/phpseclib": "~3.0",
+        "mollie/polyfill-libsodium": "^1.1",
+        "phpseclib/phpseclib2_compat": "~1.0",
+        "erusev/parsedown": "^1.7",
+        "cebe/markdown": "~1.2.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.2"
+    }
+}

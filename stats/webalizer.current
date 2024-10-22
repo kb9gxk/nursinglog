@@ -1,0 +1,732 @@
+# Webalizer V2.23-08 Incremental Data - 10/21/2024 23:35:01
+2024 10 21 23 35 1
+42173 40049 104 81 18 36 474028436 3060 397 0 0 0
+12 123 627 1 21
+1104 1032 12645521 6 76 11 0 0
+1991 1894 23042119 6 136 20 0 0
+2991 2871 30659141 14 186 26 0 0
+1818 1733 19578038 12 117 20 0 0
+1818 1734 20267915 12 129 21 0 0
+1678 1607 19238779 7 116 16 0 0
+1250 1172 14324369 6 140 20 0 0
+2211 2105 24502464 7 150 13 0 0
+2094 1992 24326151 9 148 20 0 0
+2317 2195 27348895 9 177 22 0 0
+2303 2175 25152943 8 215 21 0 0
+2665 2527 29897045 7 185 23 0 0
+1327 1263 15269935 6 96 18 0 0
+2595 2452 29623339 17 194 25 0 0
+3320 3131 37360954 5 232 18 0 0
+1999 1905 22013950 3 125 8 0 0
+1873 1788 20749020 5 117 17 0 0
+2029 1932 24448985 6 135 19 0 0
+797 748 8350596 8 66 17 0 0
+1422 1363 15964325 6 90 18 0 0
+2571 2430 29263952 12 230 25 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+357 337 4102950 26 0 0
+649 606 6800345 92 0 0
+641 616 7667385 45 0 0
+998 958 10506410 62 0 0
+725 688 8256340 54 0 0
+1485 1405 17185927 115 0 0
+2291 2178 26466008 174 0 0
+2319 2196 27131470 168 0 0
+4239 4055 43462167 253 0 0
+3395 3203 37877940 278 0 0
+3163 3027 34373858 204 0 0
+2470 2350 28061992 173 0 0
+2008 1885 21945996 197 0 0
+3848 3641 43622042 273 0 0
+2791 2647 32676087 193 0 0
+2015 1920 24644444 147 0 0
+1781 1694 20340404 121 0 0
+852 810 9655822 61 0 0
+1383 1320 15941266 97 0 0
+718 679 7726038 48 0 0
+1016 974 11600293 63 0 0
+1063 1001 11186125 78 0 0
+831 782 9832212 60 0 0
+1135 1077 12964915 78 0 0
+0
+0
+0
+40049
+0
+0
+0
+0
+0
+0
+0
+832
+1218
+0
+0
+0
+0
+0
+0
+0
+9
+65
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/+CSCOE+/logon.html
+0 6 0 26320 0 0 0 0
+/newentry/
+0 224 0 1537886 1 0 0 0
+/theme/app/images/icons/icon-192x192.png
+1 4 0 223680 0 0 0 0
+/ChangeLog.do
+0 1 0 7887 0 0 0 0
+/vendor/tinymce/tinymce/plugins/visualblocks/plugin.min.js
+0 200 0 772584 0 0 0 0
+/app/
+0 2 0 5523 0 0 0 0
+/assets/bootstrap-session-timeout/dist/bootstrap-session-timeout.min.js
+0 1738 0 6781710 0 0 0 0
+/vendor/tinymce/tinymce/plugins/emoticons/img/smiley-laughing.gif
+1 1 0 3492 0 0 0 0
+/vendor/tinymce/tinymce/plugins/emoticons/img/smiley-frown.gif
+1 1 0 3489 0 0 0 0
+/assets/footer.js
+0 903 0 4224969 0 0 0 0
+/vendor/tinymce/tinymce/plugins/emoticons/plugin.min.js
+0 200 0 760128 0 0 0 0
+/vendor/tinymce/tinymce/plugins/lists/plugin.min.js
+0 200 0 2468528 0 0 0 0
+/theme/menu/ebab_mbmcp_ico_1.png
+1 2 0 8318 0 0 0 0
+/theme/menu/mbico_mbmcp_1.png
+1 4 0 18968 0 0 0 0
+/assets/msgbox/themes/bootstrap/css/jquery.msgbox.css
+0 1760 0 7781196 0 0 0 0
+/changepass/
+0 1 0 3931 0 0 0 0
+/theme/menu/mbico_mbmcp_2.png
+1 4 0 18408 0 0 0 0
+/vendor/tinymce/tinymce/plugins/anchor/plugin.min.js
+0 200 0 781020 0 0 0 0
+/site.webmanifest
+0 1714 0 5779102 0 0 0 0
+/GetSearch.do
+0 1 0 1217 0 0 0 0
+/search/
+0 2 0 11458 1 0 0 0
+/Keepalive.do
+0 7420 0 20979840 0 0 0 0
+/admin/user/add/
+0 5 0 22505 0 0 0 0
+/rest/applinks/1.0/manifest/
+0 6 0 31198 0 0 0 0
+/log/
+0 695 0 2561804 22 73 0 0
+/user/
+0 12 0 57511 0 0 0 0
+/assets/datetimepicker/jquery.datetimepicker.css
+0 1761 0 12832677 0 0 0 0
+/theme/menu/ebab_mbmcp_ico_0.png
+1 2 0 8534 0 0 0 0
+/theme/app/images/icons/icon-152x152.png
+1 4 0 149804 0 0 0 0
+/editentry/
+0 2 0 16588 0 0 0 0
+/vendor/tinymce/tinymce/plugins/emoticons/img/smiley-cry.gif
+1 1 0 3478 0 0 0 0
+/.git/config
+0 1 0 3416 0 0 0 0
+/theme/menu/ebab_mbmcp_ico_2.png
+1 2 0 8360 0 0 0 0
+/vendor/tinymce/tinymce/plugins/charmap/plugin.min.js
+0 200 0 1285528 0 0 0 0
+/theme/app/images/icons/icon-72x72.png
+1 1 0 11645 0 0 0 0
+/assets/datetimepicker/jquery.datetimepicker.js
+0 1739 0 36563680 0 0 0 0
+/vendor/tinymce/tinymce/skins/lightgray/content.min.css
+0 200 0 904364 0 0 0 0
+/vendor/tinymce/tinymce/plugins/searchreplace/plugin.min.js
+0 200 0 1215292 0 0 0 0
+/admin/
+0 8 0 137334 0 0 0 0
+/theme/app/images/icons/icon-96x96.png
+1 4 0 69696 0 0 0 0
+/riskmit/
+0 1 0 4953 0 0 0 0
+/theme/menu/ebab_mbmcp_ico_5.png
+1 4 0 14564 0 0 0 0
+/assets/bootstrap-wysiwyg/bootstrap-wysiwyg.min.js
+0 1738 0 9004256 0 0 0 0
+/vendor/tinymce/tinymce/tinymce.min.js
+0 1737 0 222495412 0 0 0 0
+/vendor/tinymce/tinymce/themes/modern/theme.min.js
+0 201 0 9042138 0 0 0 0
+/theme/app/images/icons/icon-512x512.png
+1 5 0 1359965 0 0 0 0
+/CFIDE/componentutils/
+0 6 0 23877 0 1 0 0
+/vendor/tinymce/tinymce/plugins/emoticons/img/smiley-smile.gif
+1 1 0 3493 0 0 0 0
+/theme/app/images/loader.gif
+1 3 0 222780 0 0 0 0
+/theme/menu/ebab_mbmcp_ico_6.png
+1 2 0 8176 0 0 0 0
+/assets/jquery-hotkeys/jquery-hotkeys.js
+0 1740 0 8594556 0 0 0 0
+/theme/menu/ebab_mbmcp_ico_4.png
+1 1 0 3936 0 0 0 0
+/GetUserPass.do
+0 3 0 2495 0 0 0 0
+/vendor/tinymce/tinymce/skins/lightgray/fonts/tinymce.woff
+0 199 0 2498946 0 0 0 0
+/theme/app/images/icons/icon-384x384.png
+1 5 0 896420 0 0 0 0
+/vendor/tinymce/tinymce/plugins/link/plugin.min.js
+0 200 0 1322964 0 0 0 0
+/vendor/tinymce/tinymce/plugins/emoticons/img/smiley-innocent.gif
+1 1 0 3485 0 0 0 0
+/theme/menu/ebab_mbmcp_d.png
+1 2 0 6486 0 0 0 0
+/theme/menu/mbjsmbmcp.js
+0 1735 0 18182100 0 0 0 0
+/vendor/tinymce/tinymce/plugins/insertdatetime/plugin.min.js
+0 200 0 859764 0 0 0 0
+/assets/bootstrap-dialog/dist/css/bootstrap-dialog.min.css
+0 1761 0 6296079 0 0 0 0
+/vendor/tinymce/tinymce/plugins/autolink/plugin.min.js
+0 200 0 838564 0 0 0 0
+/
+0 1099 0 5386859 309 221 0 0
+/assets/bootstrap/dist/css/bootstrap-theme.min.css
+0 1761 0 10204824 0 0 0 0
+/theme/app/css/cover.css
+0 1761 0 8359614 0 0 0 0
+/theme/app/images/icons/icon-128x128.png
+1 4 0 110828 0 0 0 0
+/theme/menu/mbico_mbmcp_3.png
+1 5 0 21925 0 0 0 0
+/theme/app/images/icons/icon-144x144.png
+1 1 0 34222 0 0 0 0
+/assets/bootstrap-dialog/dist/js/bootstrap-dialog.min.js
+0 1738 0 13592548 0 0 0 0
+/comment/
+0 33 0 183490 0 0 0 0
+/theme/menu/mbcsmbmcp.css
+0 1761 0 11629644 0 0 0 0
+/robots.txt
+0 5 0 15900 0 0 0 0
+/assets/msgbox/jquery.msgbox.min.js
+0 1739 0 16016698 0 0 0 0
+/admin/user/edit/335/
+0 1 0 4543 0 0 0 0
+/GetLog.do
+0 698 0 10185472 0 0 0 0
+/vendor/tinymce/tinymce/skins/lightgray/skin.min.css
+0 200 0 2338364 0 0 0 0
+/theme/menu/ebab_mbmcp_ico_3.png
+1 2 0 7768 0 0 0 0
+/login/
+0 2 0 11771 0 0 0 0
+/owa/
+0 36 0 174980 0 6 0 0
+/webui/
+0 24 0 124768 0 2 0 0
+/theme/app/images/icons/nursinglog.ico
+0 3 0 1075308 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+66.249.65.35
+0 1 1 3180 0 0 0 0
+-
+2607:fb91:2241:8f0f:ac39:93d7:af76:1cc0
+0 60 56 568934 1 1729171710 0 0
+/
+2607:fb91:223d:9f43:ac39:93d7:c912:50c4
+0 71 68 776944 1 1728037543 0 0
+/
+66.249.65.34
+0 1 1 3180 0 0 0 0
+-
+66.249.83.74
+0 11 11 196154 1 1727950397 0 0
+/
+66.102.6.162
+0 3 3 13814 0 0 0 0
+-
+43.135.178.208
+0 6 0 17400 2 1729033693 0 0
+-
+162.216.17.47
+0 204 138 911694 17 1729475451 0 0
+/
+2a06:98c0:360c:a996:a1e:ebdb:e6a0:1e61
+0 1 1 6055 1 1728348822 0 0
+/
+34.82.83.108
+0 1 1 6031 1 1729087414 0 0
+/
+147.185.132.54
+0 1 1 6027 1 1728096685 0 0
+/
+34.82.90.183
+0 2 2 364466 1 1727821957 0 0
+/
+63.117.215.7
+0 16 15 232226 1 1728885930 0 0
+/
+205.210.31.35
+0 1 1 6030 1 1728227350 0 0
+/
+66.102.8.166
+0 2 0 5794 0 0 0 0
+-
+34.82.76.229
+0 2 2 364470 1 1729235024 0 0
+/
+172.235.53.247
+0 14 0 38144 2 1729322926 0 0
+-
+172.70.66.4
+0 1 1 6027 1 1728348822 0 0
+/
+63.88.73.10
+0 16 15 222481 1 1727849568 0 0
+/
+2607:fb90:a1b0:cd1:ac39:b717:c970:7414
+0 44 41 515089 1 1728643579 0 0
+/
+2600:387:f:5b33::8
+0 48 48 648497 1 1728441884 0 0
+/
+205.210.31.8
+0 1 1 6026 1 1729459554 0 0
+/
+66.102.6.163
+0 2 2 2902 0 0 0 0
+-
+34.121.98.77
+0 22 22 413450 1 1728623802 0 0
+/login/
+66.249.83.82
+0 17 16 82295 3 1728123606 0 0
+/log/
+2607:fb90:a131:91b2:ac39:b711:b148:d2cc
+0 105 99 1230988 2 1728894890 0 0
+/
+34.105.13.160
+0 1 1 6034 1 1727943444 0 0
+/
+34.145.48.24
+0 1 1 6029 1 1729553701 0 0
+/
+34.169.50.147
+0 2 2 12059 2 1729175860 0 0
+/
+104.198.107.87
+0 1 1 6033 1 1728575192 0 0
+/
+43.153.53.152
+0 2 0 5800 0 0 0 0
+-
+66.102.6.166
+0 5 5 150579 1 1728894109 0 0
+/
+2607:fb90:a12c:4da6:ac39:b711:67e3:e857
+0 85 78 1019058 2 1728717150 0 0
+/
+34.169.88.87
+0 2 2 12059 2 1728150909 0 0
+/
+50.171.251.186
+0 34265 32576 387764482 218 1729553554 0 0
+/
+205.210.31.29
+0 1 1 6026 1 1729325123 0 0
+/
+185.202.170.45
+0 1 1 6033 1 1728472216 0 0
+/
+34.127.8.76
+0 1 1 6026 1 1727891994 0 0
+/
+64.222.84.197
+0 15 15 204471 1 1728441882 0 0
+/
+205.210.31.42
+0 1 1 6034 1 1728823391 0 0
+/
+205.210.31.57
+0 1 1 6030 1 1728749814 0 0
+/
+50.171.251.188
+0 5256 5042 57728625 49 1729552848 0 0
+/
+173.44.117.70
+0 17 15 203556 1 1728885923 0 0
+/
+205.210.31.12
+0 1 1 6028 1 1728719267 0 0
+/
+23.227.134.218
+0 1 0 3237 1 1728478714 0 0
+-
+2607:fb90:9b3c:ca29:ac39:93d1:8289:3846
+0 76 73 663275 1 1728212239 0 0
+/
+34.169.117.44
+0 1 1 6027 1 1728034192 0 0
+/
+2607:fb90:a180:a375:ac39:b717:9bb9:c5cf
+0 147 140 1553907 2 1727860711 0 0
+/log/
+2607:fb90:24be:2ef6:0:46:c297:b701
+0 53 50 540871 1 1728124486 0 0
+/
+2607:fb90:24ba:eacb:0:46:c25d:ee01
+0 65 63 572027 1 1728048223 0 0
+/log/
+66.102.6.168
+0 5 5 35997 0 0 0 0
+-
+34.82.152.140
+0 1 1 6032 1 1728171314 0 0
+/
+2601:240:cd02:9310:a1a2:d831:c01f:6b67
+0 16 16 234909 1 1728358269 0 0
+/
+35.247.77.137
+0 1 1 6026 1 1728543213 0 0
+/
+2601:245:4600:8090:971d:1d59:9413:90b
+0 49 48 705038 1 1728575214 0 0
+/
+40.77.167.203
+0 1 1 3180 0 0 0 0
+-
+66.102.6.164
+0 3 3 10649 0 0 0 0
+-
+66.249.83.76
+0 18 17 256476 1 1729501077 0 0
+/
+165.232.157.219
+0 1 1 6034 1 1729372845 0 0
+/
+40.77.167.138
+0 1 1 3180 0 0 0 0
+-
+34.19.81.129
+0 2 2 12060 2 1728422623 0 0
+/
+2607:fb90:a124:8973:cde4:b0b6:9639:e743
+0 16 16 234908 1 1728767163 0 0
+/
+34.168.127.159
+0 2 2 12060 2 1728294621 0 0
+/
+2607:fb90:24c8:79c2:0:48:ae8d:7601
+0 50 46 551873 1 1729501417 0 0
+/
+34.145.76.189
+0 1 1 6031 1 1729495260 0 0
+/
+2601:246:ce01:3b50:cd71:fede:a635:bb98
+0 63 62 926202 2 1728556878 0 0
+/
+43.159.148.221
+0 1 0 2900 1 1728446947 0 0
+/
+66.249.83.81
+0 16 15 102999 2 1728123606 0 0
+/
+2600:1700:9eb0:3fb0:b8c8:ac8b:11e3:9f6f
+0 19 19 256730 1 1728235353 0 0
+/log/
+34.82.205.160
+0 1 1 6031 1 1729368051 0 0
+/
+2607:fb90:a11b:805c:ac39:b711:992c:a18e
+0 297 282 3542787 5 1729489670 0 0
+/log/
+34.82.48.34
+0 1 1 6028 1 1729314175 0 0
+/
+138.94.219.133
+0 1 1 6033 1 1728336710 0 0
+/
+34.19.92.74
+0 1 1 6035 1 1728701660 0 0
+/
+66.249.83.75
+0 13 13 90887 1 1728123611 0 0
+/
+34.168.227.245
+0 1 1 6029 1 1729437675 0 0
+/
+35.233.178.247
+0 1 1 6026 1 1728667845 0 0
+/
+185.172.52.79
+0 1 1 3416 0 0 0 0
+-
+20.115.49.110
+0 2 2 12052 2 1728892478 0 0
+/
+66.102.6.167
+0 5 5 21321 1 1728894109 0 0
+/
+2607:fb91:22a8:8bee:ac39:b717:b01f:d400
+0 159 151 1815465 2 1729249462 0 0
+/
+66.249.83.80
+0 15 14 312472 3 1728123611 0 0
+/
+34.168.241.238
+0 1 1 6031 1 1728947386 0 0
+/
+205.210.31.5
+0 1 1 6033 1 1728634649 0 0
+/
+35.230.90.218
+0 1 1 6033 1 1728797784 0 0
+/
+2607:fb90:9b36:9cc3:ac39:93d1:4ec0:e959
+0 128 122 1341891 2 1728802424 0 0
+/
+45.4.206.5
+0 1 1 6032 1 1728439632 0 0
+/
+34.145.102.24
+0 1 1 6032 1 1728913811 0 0
+/
+15.235.43.43
+0 5 0 14485 2 1728941722 0 0
+-
+34.169.113.70
+0 1 1 6027 1 1729069673 0 0
+/
+2607:fb90:a1a6:1820:ac39:b717:66ff:fbc7
+0 75 73 602343 1 1729159689 0 0
+/log/
+2607:fb90:24b4:8ed4:0:1e:85f3:1801
+0 58 56 560381 1 1727950389 0 0
+/log/
+205.210.31.26
+0 1 1 6031 1 1728904765 0 0
+/
+2607:fb90:a114:d94b:ac39:b711:50ab:8fd0
+0 175 163 1665377 2 1728464589 0 0
+/log/
+147.185.132.28
+0 1 1 6029 1 1728583654 0 0
+/
+74.125.209.69
+0 1 0 2897 0 0 0 0
+-
+2607:fb90:a146:a0a:ac39:b711:4ee9:1b21
+0 162 154 1999867 2 1728626754 0 0
+/log/
+35.85.55.215
+0 4 0 11588 0 0 0 0
+-
+2607:fb90:9bad:5ba8:ac39:93d7:8236:c533
+0 109 100 1134978 1 1728557633 0 0
+/
+2607:fb91:220a:23b:ff:1269:1943:66ed
+0 7 7 39244 1 1727962883 0 0
+/
+52.167.144.55
+0 1 1 3180 0 0 0 0
+-
+2607:fb90:9b4b:822f:ac39:93d1:50a3:3173
+0 17 16 235872 1 1728219492 0 0
+/
+15.235.43.115
+0 4 0 11588 2 1728941668 0 0
+-
+35.233.243.47
+0 1 1 6027 1 1728799736 0 0
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+162.216.17.47
+0 68 46 295751 7 1729475451 0 0
+/
+66.249.83.82
+0 2 2 4779 0 0 0 0
+-
+34.145.48.24
+0 1 1 6029 1 1729553701 0 0
+/
+50.171.251.186
+0 2269 2162 26172633 12 1729553554 0 0
+/
+50.171.251.188
+0 54 52 710706 1 1729552848 0 0
+/
+66.249.83.76
+0 10 9 192429 1 1729501077 0 0
+/
+2607:fb90:24c8:79c2:0:48:ae8d:7601
+0 50 46 551873 1 1729501417 0 0
+/
+34.145.76.189
+0 1 1 6031 1 1729495260 0 0
+/
+66.249.83.81
+0 2 2 16002 0 0 0 0
+-
+2607:fb90:a11b:805c:ac39:b711:992c:a18e
+0 104 99 1255400 1 1729489670 0 0
+/log/
+66.249.83.75
+0 5 5 26770 0 0 0 0
+-
+66.249.83.80
+0 5 5 25549 0 0 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+android-app://com.google.android.googlequicksearchbox/
+0 4
+https://bst.nursinglog.click/Timeout.do
+0 4
+http://bst.nursinglog.click/wp-login.php
+0 1
+https://bst.nursinglog.click/newentry/
+0 1
+https://landing.btwaukegan.com/
+0 425
+https://www.google.com/
+0 5
+- (Direct Request)
+0 41717
+http://abh.nursinglog.click/wp-includes/css/buttons.css
+0 1
+http://172.67.145.150:80/
+0 2
+https://bst.nursinglog.click/
+0 1
+http://104.21.95.154:80/
+0 2
+http://abh.nursinglog.click/media/system/js/core.js
+0 1
+http://bst.nursinglog.click/wp-includes/css/buttons.css
+0 1
+http://bst.nursinglog.click/media/system/js/core.js
+0 1
+http://abh.nursinglog.click/
+0 1
+http://bst.nursinglog.click/
+0 1
+http://abh.nursinglog.click:80/.git/config
+0 1
+https://bst.nursinglog.click/Login.do
+0 4
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+0 2
+Cloudflare-SSLDetector
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+0 22
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.140
+0 816
+Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+0 30925
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Mobile/15E148 
+0 248
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+0 3356
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+0 14
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; HM NOTE 1W Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBr
+0 4
+Go-http-client/1.1
+0 1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.19
+0 3
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:82.0) Gecko/20100101 Firefox/82.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0
+0 2
+Go-http-client/2.0
+0 4
+GoogleAssociationService
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0
+0 1
+python-requests/2.32.3
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 
+0 7
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E14
+0 1
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 EdgA/129.0.0.
+0 16
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36
+0 1952
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 3
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36
+0 210
+Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Sa
+0 113
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/26.0 Chrome/122.0.0.0 Mobile Safari/
+0 516
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0
+0 31
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+0 198
+Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+0 85
+Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+0 238
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36
+0 3370
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+0 1
+Microsoft Windows Network Diagnostics
+0 1
+Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.31
+0 9
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
