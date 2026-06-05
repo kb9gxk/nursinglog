@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9471ca9ad96dbcfdce1d70b6cea8cca9",
+    "content-hash": "b24843fdefef747024e79d3221ae9c73",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -697,16 +697,16 @@
         },
         {
             "name": "tinymce/tinymce",
-            "version": "7.2.0",
+            "version": "7.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "ca4b8ce34f4d4f4c1485da90a4247886c4e45335"
+                "reference": "4e5c520b2b6d52a6251316ab2e4af383c5e753bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/ca4b8ce34f4d4f4c1485da90a4247886c4e45335",
-                "reference": "ca4b8ce34f4d4f4c1485da90a4247886c4e45335",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/4e5c520b2b6d52a6251316ab2e4af383c5e753bd",
+                "reference": "4e5c520b2b6d52a6251316ab2e4af383c5e753bd",
                 "shasum": ""
             },
             "type": "component",
@@ -750,9 +750,9 @@
                 "wysiwyg"
             ],
             "support": {
-                "source": "https://github.com/tinymce/tinymce-dist/tree/7.2.0"
+                "source": "https://github.com/tinymce/tinymce-dist/tree/7.9.3"
             },
-            "time": "2024-06-19T06:08:58+00:00"
+            "time": "2026-05-19T23:38:56+00:00"
         }
     ],
     "packages-dev": [
